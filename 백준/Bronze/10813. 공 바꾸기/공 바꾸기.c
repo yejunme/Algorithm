@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+void Swap(int* arr, int i, int j)
+{
+	int tmp = arr[i];
+	arr[i] = arr[j];
+	arr[j] = tmp;
+}
+
 int main()
 {
     int arr[101];
@@ -14,9 +21,7 @@ int main()
 	for (int a = 1; a <= m; a++)
 	{
 		scanf("%d %d", &i, &j);
-		int tmp = arr[i];
-		arr[i] = arr[j];
-		arr[j] = tmp;
+		Swap(arr, i, j);
 	}
 
 	for (int a = 1; a <= n; a++)
