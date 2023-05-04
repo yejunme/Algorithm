@@ -30,6 +30,5 @@ int main()
 	for (int a = 1; a <= n; a++)
 		printf("%d ", arr[a]);
 
-
 	return 0;
 }
