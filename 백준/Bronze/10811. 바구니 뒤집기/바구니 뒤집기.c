@@ -16,9 +16,7 @@ int main()
 	scanf("%d %d", &n, &m);
 
 	for (int a = 1; a <= n; a++)
-	{
 		arr[a] = a;
-	}
 
 	for (int a = 1; a <= m; a++)
 	{
